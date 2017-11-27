@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Catherine Tran</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JQuery 3.2.1-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Load the Typed.js library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <!-- Special Elite, Raleway font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400|Special+Elite" rel="stylesheet">
+
+
+</head>
+
+<style>
+@font-face {
+  font-family: EDO;
+  src: url('assets/fonts/edo.ttf');
+}
+</style>
+
+<body>
+
+    <div class="top-section">
+
+        <h1 id="landingTitle">Hello World, I'm Catherine.</h1>
+
+        <img id="profpic" src="assets/img/profpic.jpg" alt="Me">
+
+        <h2 class="" id="typer"></h1>
+
+            <div class="page-links-row" style="width:50%;">
+                <a href="project.html"><span class="pageLink">project</spanspan></a>
+                    <a href="resume.html"><span class="pageLink">resume</span></a>
+                    <a href="journal.html"><span class="pageLink">journal</span></a>
+                    <a href="about.html"><span class="pageLink">about</span></a>
+            </div>
+    </div>
+
+            <div class="media-links">
+                <a href="https://www.linkedin.com/in/catherine-tran-b9454493" target="_blank"><img src="assets/icons/in.png" class="icon"></a>
+                <a href="https://www.canva.com/trancatherine510" target="_blank"><img src="assets/icons/canva.png" class="icon"></a>
+                <a href="#" target="_blank"><img src="assets/icons/behance.png" class="icon"></a>
+                <a href="mailto:trancatherine@berkeley.edu" target="_blank"><img src="assets/icons/mail.png" class="icon"></a>
+            </div>
+
+        <script>
+        $( document ).ready(function() {
+            $("#typer").typed({
+                strings: ["design-erd", "aspiring minimalist", "color enthusiast", "petite with an appetite", "golden bear"],
+                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+                stringsElement: null,
+                // typing speed
+                typeSpeed: 10,
+                // time before typing starts
+                startDelay: 1200,
+                // backspacing speed
+                backSpeed: 5,
+                // time before backspacing
+                backDelay: 1000,
+                // loop
+                loop: true,
+                // false = infinite
+                loopCount: false,
+                // show cursor
+                showCursor: false,
+                // character for cursor
+                cursorChar: "|",
+                // attribute to type (null == text)
+                attr: null,
+                // either html or text
+                contentType: 'html',
+                // call when done callback function
+                callback: function() {},
+                // starting callback function before each string
+                preStringTyped: function() {},
+                //callback for every typed string
+                onStringTyped: function() {},
+                // callback for reset
+                resetCallback: function() {}
+            });
+        });
+
+
+        </script>
+    </body>
+    </html>

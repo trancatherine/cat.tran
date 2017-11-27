@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Project</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JQuery 3.2.1-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Special Elite, Raleway font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400|Special+Elite" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <a class="home-link" href="index.html">Catherine Tran</a>
+        <span class="page-links">
+            <a class="p-link active" href="#">project</a>
+            <a class="p-link" href="resume.html">resume</a>
+            <a class="p-link" href="journal.html">journal</a>
+            <a class="p-link" href="about.html">about</a>
+        </span>
+    </div>
+
+    <div class="wrapper">
+        <h3 class="proj-title">decode</h3>
+        <h3 class="proj-subheader">Digest more than food. Digest information.</h3>
+        <h3 class="proj-desc">Decode is the first mobile design project that I worked on for my Human Centered Design course. My team members and I were given a week to propose a solution to our design challenge: How might we help consumers decode food labels? Keep scrolling to see how we tackled our challenge! </h3>
+
+        <h3 class="proj-desc" style="font-weight: normal; padding: 10px 7% 25px; ">You can view the prototype on Marvel <a href="https://marvelapp.com/3bi2g5a/screen/34984094">here.</a></h3>
+        <img src="assets/decode/1.png" alt="" class="slide">
+        <img src="assets/decode/2.png" alt="" class="slide">
+        <img src="assets/decode/3.png" alt="" class="slide">
+        <img src="assets/decode/4.png" alt="" class="slide">
+        <img src="assets/decode/5.png" alt="" class="slide">
+        <img src="assets/decode/6.png" alt="" class="slide">
+        <img src="assets/decode/7.png" alt="" class="slide">
+        <img src="assets/decode/8.png" alt="" class="slide">
+        <img src="assets/decode/9.png" alt="" class="slide">
+        <img src="assets/decode/10.png" alt="" class="slide">
+        <img src="assets/decode/11.png" alt="" class="slide">
+        <img src="assets/decode/12.png" alt="" class="slide">
+        <img src="assets/decode/13.png" alt="" class="slide">
+        <img src="assets/decode/14.png" alt="" class="slide">
+        <img src="assets/decode/15.png" alt="" class="slide">
+        <img src="assets/decode/16.png" alt="" class="slide">
+        <img src="assets/decode/17.png" alt="" class="slide">
+        <img src="assets/decode/18.png" alt="" class="slide">
+        <img src="assets/decode/19.png" alt="" class="slide">
+        <img src="assets/decode/20.png" alt="" class="slide">
+        <img src="assets/decode/21.png" alt="" class="slide">
+        <img src="assets/decode/22.png" alt="" class="slide">
+        <img src="assets/decode/23.png" alt="" class="slide">
+        <img src="assets/icons/up.png" alt="Up Arrow" class="" id="up-arrow">
+
+        <h3 class="proj-desc">I will update our progress along the way below!</h3>
+    </div>
+
+
+
+
+    <script>
+    $( document ).ready(function() {
+        $("#up-arrow").click(function(){
+            $('html, body').animate({scrollTop:0}, 'slow');
+        });
+
+        $( ".p-link, #up-arrow, #download-btn" ).hover(
+            function() {
+                $( this ).addClass("hover");
+            }, function() {
+                $( this ).removeClass("hover");
+            }
+        );
+    });
+
+
+    </script>
+</body>
+</html>

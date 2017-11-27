@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Resume</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JQuery 3.2.1-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Special Elite, Raleway font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400|Special+Elite" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <a class="home-link" href="index.html">Catherine Tran</a>
+        <span class="page-links">
+            <a class="p-link" href="project.html">project</a>
+            <a class="p-link active" href="#">resume</a>
+            <a class="p-link" href="journal.html">journal</a>
+            <a class="p-link" href="about.html">about</a>
+        </span>
+    </div>
+
+
+    <img src="assets/docs/resume.png" alt="" class="resume">
+
+    <a href="assets/docs/resume.pdf" target="_blank"><img src="assets/icons/download.png" alt="download button" class="" id="download-btn"> </a>
+
+
+    <script>
+    $( ".p-link, #up-arrow, #download-btn" ).hover(
+        function() {
+            $( this ).addClass("hover");
+        }, function() {
+            $( this ).removeClass("hover");
+        }
+    );
+
+    </script>
+</body>
+</html>
