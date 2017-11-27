@@ -116,7 +116,7 @@ a {
 #typer {
     letter-spacing: 2px;
     font-family: 'EDO';
-    color: #39CCCC;
+    color: teal;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
